@@ -13,11 +13,11 @@ export class BookService {
       // 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
       // 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
       // 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
-      '../assets/images/boooks/book-1.jpg',
-      '../assets/images/boooks/book-2.jpg',
-      '../assets/images/boooks/book-3.jpg',
-      '../assets/images/boooks/book-4.jpg',
-      '../assets/images/boooks/book-5.jpg',
+      '../assets/images/books/book-1.jpg',
+      '../assets/images/books/book-2.jpg',
+      '../assets/images/books/book-3.jpg',
+      '../assets/images/books/book-4.jpg',
+      '../assets/images/books/book-5.jpg',
     ];
   }
 }
