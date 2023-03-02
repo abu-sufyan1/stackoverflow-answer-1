@@ -1,17 +1,18 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class BookService {
-
-  constructor() {
-  }
+  constructor() {}
 
   getAll(): String[] {
     return [
-      'src/assets/images/books/book-1.jpg',
-      'src/assets/images/books/book-1.jpg',
-      'src/assets/images/books/book-1.jpg',
-    ]
+      '../assets/images/books/book-1.jpg',
+      '../assets/images/books/book-2.jpg',
+      '../assets/images/books/book-3.jpg',
+      '../assets/images/books/book-4.jpg',
+      '../assets/images/books/book-5.jpg',
+    ];
   }
-
 }

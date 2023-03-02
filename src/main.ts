@@ -11,9 +11,10 @@ import { BookService } from './book.service';
   template: `
     <h1>Hello from {{name}}!</h1>
     <ul>
-      <li *ngFor ="let read of books">
-        <a >
-        <img src='{{read}}' alt="">
+      <li *ngFor ="let b of books">
+        <a>
+          {{b}}
+          <img src="b" width="500" height="600"/>
         </a>
       </li>
     </ul>
