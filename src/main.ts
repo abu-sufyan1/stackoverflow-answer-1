@@ -14,7 +14,7 @@ import { BookService } from './book.service';
       <li *ngFor ="let b of books">
         <a>
           {{b}}
-          <img src="b" width="500" height="600"/>
+          <img width="500" height="600" src="{{b}}"/>
         </a>
       </li>
     </ul>
@@ -31,3 +31,4 @@ export class App {
 }
 
 bootstrapApplication(App);
+// <img [src]="b" width="500" height="600"/>
